@@ -4,7 +4,7 @@ def main():
     mat2 = float(input("Calificación de la materia: "))
     mat3 = float(input("Calificación de la materia: "))
     mat4 = float(input("Calificación de la materia: "))
-    prom = float((mat1 + mat2 + mat3 + mat4)/4)
+    prom = (mat1 + mat2 + mat3 + mat4)/4
     print("El promedio es: " + str(prom))
 main()
 
