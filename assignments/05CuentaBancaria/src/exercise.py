@@ -1,13 +1,13 @@
 def main():
     #escribe tu código abajo de esta línea
-    ant = float(input("Ingrese el saldo del mes anterior: "))
-    ing = float(input("Ingresos: "))
-    egr = float(input("Egresos: "))
-    ja = int(input("Número de cheques expedidos: "))
+    ant = float(input("Dame el saldo del mes anterior: "))
+    ing = float(input("Dame los ingresos: "))
+    egr = float(input("Dame los egresos: "))
+    ja = int(input("Dame el número de cheques: "))
     che = ja * 13
     fin = ant + ing - egr - che
     res = (fin * 0.075) 
-    print("Saldo del final del mes: " + str(fin-res))
+    print("El saldo final de la cuenta es: " + str(fin-res))
 
 
 
